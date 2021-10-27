@@ -3,5 +3,7 @@
 @section('title', 'Homepage')
 
 @section('content')
-    {{ dd($comics) }}
+    @foreach ($comics as $comic)
+        <p>{{$comic["title"]}}</p>
+    @endforeach
 @endsection

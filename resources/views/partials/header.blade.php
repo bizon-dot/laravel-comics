@@ -1,5 +1,4 @@
 <header>
-    <h1>Sono l'Header</h1>
     <ul>
         <li><a href="{{ route('homepage')}}">Home</a></li>
         <li><a href="{{ route('homepage')}}">About</a></li>
